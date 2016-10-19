@@ -20,5 +20,12 @@ public class IntGoogleFile {
 	public void FileAddTest() throws IOException {
 		obj.addFile(localFile);
 	}
-
+	@Test
+	public void FileUpdateTest() throws Exception {
+	obj.updateFile(localFile);
+}
+	@Test
+	public void FileDeleteTest() throws Exception {
+	obj.deleteFile(localFile);
+}
 }
